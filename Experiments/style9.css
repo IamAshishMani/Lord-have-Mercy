@@ -1,0 +1,91 @@
+@media (max-width: 600px) {      
+    .suggest {         
+        display: flex;         
+        flex-wrap: wrap;         
+        overflow-x: auto;         
+        white-space: nowrap;         
+        gap: 18px;         
+        height: auto;            
+        padding: 8px 12px;         
+        background-color: rgb(37, 49, 71);         
+        scrollbar-width: none;         
+        align-items: center;
+    }      
+
+    .suggest::-webkit-scrollbar {         
+        display: none;     
+    }      
+
+    .suggest div {         
+        flex: 0 0 auto;         
+        font-size: 14px;         
+        color: white;         
+        padding: 0 4px;         
+        font-family: monospace;       
+        display: inline-flex;         
+        align-items: center;
+    }      
+
+    .more {         
+        display: flex;         
+        align-items: center;         
+        gap: 6px;         
+        padding-left: 0;         
+    }      
+
+    .three-lines {         
+        height: 16px;         
+        width: 18px;     
+    } 
+}
+
+.first-visuals,
+.row-divider {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.first, .second, .third, .forth,
+.product {
+    flex: 1 1 250px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #ffffff;
+}
+
+.first-visuals img,
+.row-divider img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.products-inside-offers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.division {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 120px;
+}
+
+.pics {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.xyz, .offers-info, p, span {
+    font-family: monospace;
+}
